@@ -66,20 +66,23 @@ body {
     margin: 17px 125px 0 125px;
 }
 .pic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
 }
 h4{
     text-transform: capitalize;
     font-family:cursive;
-    font-size:30px;
+    font-size:28px;
     color:#daff9f;
 }
 h5{
     font-family:cursive;
-    font-size: 30px;
+    font-size: 28px;
     color:#daff9f;
+}
+#description{
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
 #icon{
   background-color: #90a966;
@@ -138,12 +141,12 @@ h5{
 h4{
   text-transform: capitalize;
   font-family:cursive;
-  font-size:28px;
+  font-size:25px;
   color:#daff9f;
 }
 h5{
   font-family:cursive;
-  font-size: 28px;
+  font-size: 25px;
   color:#daff9f;
 }
 #icon{
@@ -162,7 +165,7 @@ border-radius: 50%;
 }
 #description{
   margin-bottom: 8px;
-
+  margin-top:0;
 }
 #humidity{
   margin-bottom: 8px;
