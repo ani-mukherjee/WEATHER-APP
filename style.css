@@ -1,3 +1,5 @@
+/* For desktop */
+
 *{  
     margin: 0;
     padding: 0;
@@ -86,8 +88,7 @@ h5{
 }
 
 
-
-/* for mobile */
+/* For mobile */
 
 @media only screen and (max-width: 650px){
   h1{
