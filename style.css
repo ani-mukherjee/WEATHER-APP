@@ -16,6 +16,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 45px;
     text-align: center;
+    font-style: italic;
   }
   h2{
     margin: 10px;
@@ -94,6 +95,7 @@ h5{
     color:rgb(53, 109, 95);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
+    font-style: italic;
   }
   h2{
     color:rgb(227, 111, 3);
