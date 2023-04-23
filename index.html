@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Weather Forecast</h1><br>
+        <h2 id="date"></h2><br>
+        <div class="inputText">
+            <input type="text"; placeholder="Enter City Name" id="Location">
+            <img  class="search" src="search.png" alt="Search" onclick="display()">
+        </div>
+    </div><br><br>
+    <div class="main">
+        <div class="firstpart">
+            <h4 id="temp"></h4>
+            <h4 id="feelslike"></h4>
+        </div>
+        <div class="pic">
+            <h4 id="description"></h4>
+            <img id="icon">
+
+        </div>
+        <div class="secondpart">
+            <h4 id="humidity"></h4>
+            <h5 id="wind"></h5>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
