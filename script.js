@@ -1,3 +1,4 @@
+// By using API
 // key = f6fe70b24534fe4736d9296db868f81f
 let date= new Date();
 document.getElementById("date").innerHTML= `Today: ${date.getDate()}-0${date.getMonth()+1}-${date.getFullYear()}`;

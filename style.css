@@ -76,6 +76,7 @@ h4{
     color:#daff9f;
 }
 h5{
+    text-transform: capitalize;
     font-family:cursive;
     font-size: 28px;
     color:#daff9f;
