@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDIDbSBLz4yL5_uEnWr6dQyVbEqNfW_bLjZg&usqp=CAU');
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450__340.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -14,7 +14,7 @@ body {
   }
   h1{
     margin-top: 75px;
-    color:rgb(132, 55, 156);
+    color:rgb(119, 184, 168);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 45px;
     text-align: center;
@@ -22,7 +22,7 @@ body {
   }
   h2{
     margin: 10px;
-    color:rgb(0, 82, 11);
+    color:rgb(227, 186, 3);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 29px;
     font-style: italic;
@@ -94,16 +94,16 @@ h5{
 
 /* For mobile */
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 900px){
   h1{
     margin-top: 55px;
-    color:rgb(53, 109, 95);
+    color:rgb(119, 184, 168);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     font-style: italic;
   }
   h2{
-    color:rgb(227, 111, 3);
+    color:rgb(227, 186, 3);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
     font-style: italic;
