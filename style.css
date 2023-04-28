@@ -90,6 +90,9 @@ h5{
   margin-left: 10px;
   border-radius: 50%;
 }
+#wind{
+  text-transform: none;
+}
 
 
 /* For mobile */

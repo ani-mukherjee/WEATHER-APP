@@ -13,7 +13,7 @@ input.addEventListener("click",display=()=>{
         document.getElementById("temp").innerHTML=`Now ${Math.floor(weatherInfo.main.temp -273.15)}° in ${input.value}`;
         document.getElementById("feelslike").innerHTML=`Feels like ${Math.floor(weatherInfo.main.feels_like -273.15)}°`;
         document.getElementById("humidity").innerHTML=`Humidity: ${Math.floor(weatherInfo.main.humidity)}%`;
-        document.getElementById("wind").innerHTML=`Wind-speed: ${Math.floor(weatherInfo.wind.speed + 8)} km/h`;
+        document.getElementById("wind").innerHTML=`Wind-Speed: ${Math.floor(weatherInfo.wind.speed + 8)} km/h`;
         document.getElementById("description").innerHTML= `${weatherInfo.weather[0].description}`;
         document.getElementById("icon").src = `https://openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`; // image source given
     })
