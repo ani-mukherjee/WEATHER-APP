@@ -177,4 +177,7 @@ border-radius: 50%;
 #humidity{
   margin-bottom: 8px;
 }
+#wind{
+  text-transform: none;
+}
 }
