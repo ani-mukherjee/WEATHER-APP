@@ -1,5 +1,4 @@
-// By using Fetch API
-// key = f6fe70b24534fe4736d9296db868f81f
+
 let date= new Date();
 document.getElementById("date").innerHTML= ` ${date.getDate()}-0${date.getMonth()+1}-${date.getFullYear()}`;
 setInterval(() => {
@@ -7,6 +6,10 @@ setInterval(() => {
    let time = ("0" + a.getHours()).substr(-2) + ':' +("0" + a.getMinutes()).substr(-2)+ ':' + ("0" + a.getSeconds()).substr(-2);
     document.getElementById('time').innerHTML = time;
   }, 1000);
+
+
+// By using Fetch API
+// key = f6fe70b24534fe4736d9296db868f81f
 
 let input= document.getElementById("Location");
 input.addEventListener("click",display=()=>{
