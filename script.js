@@ -13,7 +13,7 @@ setInterval(() => {
 
 let input= document.getElementById("Location");
 input.addEventListener("click",display=()=>{
-    let url=`https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=f6fe70b24534fe4736d9296db868f81f`;
+    let url=`https://api.openweathermap.org/data/2.5/weather?q=${input.value.trim()}&appid=f6fe70b24534fe4736d9296db868f81f`;
     fetch(url)
     .then((response)=>{
         return response.json();
